@@ -15,6 +15,9 @@
 		6A3CFF312670C9CA00911979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A3CFF2F2670C9CA00911979 /* LaunchScreen.storyboard */; };
 		6A3CFF3C2670C9CA00911979 /* AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CFF3B2670C9CA00911979 /* AlertTests.swift */; };
 		6A3CFF472670C9CA00911979 /* AlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CFF462670C9CA00911979 /* AlertUITests.swift */; };
+		6A3CFF572670CBA000911979 /* lamp-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A3CFF542670CBA000911979 /* lamp-on.png */; };
+		6A3CFF582670CBA000911979 /* lamp-remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A3CFF552670CBA000911979 /* lamp-remove.png */; };
+		6A3CFF592670CBA000911979 /* lamp-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A3CFF562670CBA000911979 /* lamp-off.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		6A3CFF422670C9CA00911979 /* AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A3CFF462670C9CA00911979 /* AlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUITests.swift; sourceTree = "<group>"; };
 		6A3CFF482670C9CA00911979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A3CFF542670CBA000911979 /* lamp-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp-on.png"; sourceTree = "<group>"; };
+		6A3CFF552670CBA000911979 /* lamp-remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp-remove.png"; sourceTree = "<group>"; };
+		6A3CFF562670CBA000911979 /* lamp-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp-off.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		6A3CFF232670C9C900911979 /* Alert */ = {
 			isa = PBXGroup;
 			children = (
+				6A3CFF562670CBA000911979 /* lamp-off.png */,
+				6A3CFF542670CBA000911979 /* lamp-on.png */,
+				6A3CFF552670CBA000911979 /* lamp-remove.png */,
 				6A3CFF242670C9C900911979 /* AppDelegate.swift */,
 				6A3CFF262670C9C900911979 /* SceneDelegate.swift */,
 				6A3CFF282670C9C900911979 /* ViewController.swift */,
@@ -232,7 +241,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A3CFF312670C9CA00911979 /* LaunchScreen.storyboard in Resources */,
+				6A3CFF592670CBA000911979 /* lamp-off.png in Resources */,
+				6A3CFF582670CBA000911979 /* lamp-remove.png in Resources */,
 				6A3CFF2E2670C9CA00911979 /* Assets.xcassets in Resources */,
+				6A3CFF572670CBA000911979 /* lamp-on.png in Resources */,
 				6A3CFF2C2670C9C900911979 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
