@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     let interval = 1.0
     var count = 0
     var alarmTime: String?
+    var alaertFlag = false
     
     
     
@@ -59,13 +60,30 @@ class ViewController: UIViewController {
 //        현재시각과 선택 시간 비교 하기.
         formatter.dateFormat = "hh:mm aaa"
         let currentTime = formatter.string(from: date as Date)
-        
+
         if(alarmTime == currentTime){
-            view.backgroundColor = UIColor.red
+            if !alaertFlag{
+                
+//                view.backgroundColor = UIColor.red
+                let alarmAlert = UIAlertController(title: "알람", message: "지정하신 시간입니다", preferredStyle: UIAlertController.Style.alert)
+                let okAction = UIAlertAction(title: "확인", style: UIAlertAction.Style.default, handler: nil)
+
+                alarmAlert.addAction(okAction)
+                present(alarmAlert, animated: true, completion: nil)
+                alaertFlag = true
+                
+            }
+            
+
+            
         }else{
-            view.backgroundColor = UIColor.white
+           // view.backgroundColor = UIColor.white
+            alaertFlag = false
         }
     }
     
 }
+
+
+
 
