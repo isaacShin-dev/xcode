@@ -19,6 +19,16 @@
 		6A3C011B26788BF300911979 /* lightOn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A3C011926788BF300911979 /* lightOn.jpg */; };
 		6A3C011D26788CB400911979 /* ImageViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C011C26788CB400911979 /* ImageViewController .swift */; };
 		6A3C011F26788F6200911979 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C011E26788F6200911979 /* DateViewController.swift */; };
+		6A3C01212678925E00911979 /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A3C01202678925E00911979 /* file.png */; };
+		6A3C012326789B7B00911979 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C012226789B7B00911979 /* PickerViewController.swift */; };
+		6A3C012C26789BD900911979 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A3C012426789BD900911979 /* 6.jpg */; };
+		6A3C012D26789BD900911979 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A3C012526789BD900911979 /* 4.jpg */; };
+		6A3C012E26789BD900911979 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A3C012626789BD900911979 /* 8.jpg */; };
+		6A3C012F26789BD900911979 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A3C012726789BD900911979 /* 3.jpg */; };
+		6A3C013026789BD900911979 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A3C012826789BD900911979 /* 2.jpg */; };
+		6A3C013126789BD900911979 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A3C012926789BD900911979 /* 5.jpg */; };
+		6A3C013226789BD900911979 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A3C012A26789BD900911979 /* 7.jpg */; };
+		6A3C013326789BD900911979 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A3C012B26789BD900911979 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +67,16 @@
 		6A3C011926788BF300911979 /* lightOn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lightOn.jpg; path = ../../ImageView/ImageView/lightOn.jpg; sourceTree = "<group>"; };
 		6A3C011C26788CB400911979 /* ImageViewController .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ImageViewController .swift"; path = "../../ImageView/ImageView/ImageViewController .swift"; sourceTree = "<group>"; };
 		6A3C011E26788F6200911979 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateViewController.swift; path = ../../DatePicker/DatePicker/DateViewController.swift; sourceTree = "<group>"; };
+		6A3C01202678925E00911979 /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
+		6A3C012226789B7B00911979 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickerViewController.swift; path = ../../PickerView/PickerView/PickerViewController.swift; sourceTree = "<group>"; };
+		6A3C012426789BD900911979 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		6A3C012526789BD900911979 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		6A3C012626789BD900911979 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		6A3C012726789BD900911979 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		6A3C012826789BD900911979 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		6A3C012926789BD900911979 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		6A3C012A26789BD900911979 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		6A3C012B26789BD900911979 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,11 +129,21 @@
 			children = (
 				6A3C011826788BF300911979 /* lightOff.jpeg */,
 				6A3C011926788BF300911979 /* lightOn.jpg */,
+				6A3C012B26789BD900911979 /* 1.jpg */,
+				6A3C012826789BD900911979 /* 2.jpg */,
+				6A3C012726789BD900911979 /* 3.jpg */,
+				6A3C012526789BD900911979 /* 4.jpg */,
+				6A3C012926789BD900911979 /* 5.jpg */,
+				6A3C012426789BD900911979 /* 6.jpg */,
+				6A3C012A26789BD900911979 /* 7.jpg */,
+				6A3C012626789BD900911979 /* 8.jpg */,
+				6A3C01202678925E00911979 /* file.png */,
 				6A3C00E826776D2100911979 /* AppDelegate.swift */,
 				6A3C00EA26776D2100911979 /* SceneDelegate.swift */,
 				6A3C00EC26776D2100911979 /* ViewController.swift */,
 				6A3C011C26788CB400911979 /* ImageViewController .swift */,
 				6A3C011E26788F6200911979 /* DateViewController.swift */,
+				6A3C012226789B7B00911979 /* PickerViewController.swift */,
 				6A3C00EE26776D2100911979 /* Main.storyboard */,
 				6A3C00F126776D2100911979 /* Assets.xcassets */,
 				6A3C00F326776D2100911979 /* LaunchScreen.storyboard */,
@@ -243,11 +273,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3C013026789BD900911979 /* 2.jpg in Resources */,
+				6A3C012D26789BD900911979 /* 4.jpg in Resources */,
+				6A3C012C26789BD900911979 /* 6.jpg in Resources */,
+				6A3C01212678925E00911979 /* file.png in Resources */,
+				6A3C012E26789BD900911979 /* 8.jpg in Resources */,
 				6A3C011A26788BF300911979 /* lightOff.jpeg in Resources */,
+				6A3C012F26789BD900911979 /* 3.jpg in Resources */,
 				6A3C00F526776D2100911979 /* LaunchScreen.storyboard in Resources */,
 				6A3C011B26788BF300911979 /* lightOn.jpg in Resources */,
+				6A3C013126789BD900911979 /* 5.jpg in Resources */,
+				6A3C013226789BD900911979 /* 7.jpg in Resources */,
 				6A3C00F226776D2100911979 /* Assets.xcassets in Resources */,
 				6A3C00F026776D2100911979 /* Main.storyboard in Resources */,
+				6A3C013326789BD900911979 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3C012326789B7B00911979 /* PickerViewController.swift in Sources */,
 				6A3C011F26788F6200911979 /* DateViewController.swift in Sources */,
 				6A3C00ED26776D2100911979 /* ViewController.swift in Sources */,
 				6A3C00E926776D2100911979 /* AppDelegate.swift in Sources */,
